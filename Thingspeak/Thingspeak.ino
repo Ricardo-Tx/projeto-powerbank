@@ -1,5 +1,5 @@
 #include <ESP8266WiFi.h>
-#include "credentials.h"
+#include "credentials.h"    // defines STASSID, STAPSK and THINGSPEAK_TOKEN
 
 // WIFI
 const char* ssid = STASSID;
